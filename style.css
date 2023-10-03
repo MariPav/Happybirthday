@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: auto;
+}
+.container{
+    width: 90%;
+    min-height: 100%;
+    margin: 0 auto;
+    /* border-left: 1px solid #000; */
+    /* border-right: 1px solid #000; */
+}
+
+.section{
+    height: 100vh;
+    padding-top: 60px;
+    
+}
+.header{
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 0 10px 0 black; 
+   
+}
+  
+#home{
+    background-color: linen;
+}
+#це{
+    background-color: mediumaquamarine;
+}
+#дві{
+    background-color: plum;
+}
+#миші{
+    background-color: salmon;
+}
+
+.header-ми{
+    width: 20%;
+    /* height: 60px; */
+    /* background-color: silver; */
+    }
+.menu{
+    width: 50%;
+    /* height: 60px; */
+    /* background-color: tan; */
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: monospace;
+}
+.menu-link{
+    display: block;
+    width: 110px;
+    height: 40px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: #000;
+    background-color:white;
+    font-size: 19px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+
+}
